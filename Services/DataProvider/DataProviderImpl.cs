@@ -108,22 +108,6 @@ namespace sm_coding_challenge.Services.DataProvider
                 latestPlayerDataModel.Rushing[0] = new Rushing();
                 latestPlayerDataModel.Rushing[0].Player = playerRushing;
             }
-
-            //var playerKicking = dataResponse.Kicking.SingleOrDefault(x => x.Id == id);
-            //if (playerKicking != null)
-            //{
-            //    latestPlayerDataModel.Kicking = new Kicking[1];
-            //    latestPlayerDataModel.Kicking[0] = new Kicking();
-            //    latestPlayerDataModel.Kicking[0].Player = playerKicking;
-            //}
-
-            //var playerPassing = dataResponse.Passing.SingleOrDefault(x => x.Id == id);
-            //if (playerPassing != null)
-            //{
-            //    latestPlayerDataModel.Passing = new Rushing[1];
-            //    latestPlayerDataModel.Passing[0] = new Rushing();
-            //    latestPlayerDataModel.Passing[0].Player = playerPassing;
-            //}
             return latestPlayerDataModel;
         }
 
